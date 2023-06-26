@@ -1,0 +1,18 @@
+{
+    "extends": "@tsconfig/node18",
+    "compilerOptions": {
+        "rootDir": ".",
+        "baseUrl": ".",
+        "outDir": "./dist",
+
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true,
+        "removeComments": true,
+
+        "noImplicitAny": true,
+        "strictNullChecks": true
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modules", ".idea_notes"]
+}
